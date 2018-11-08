@@ -21,6 +21,30 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "webpack": "^4.25.1",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.1.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "node-sass": "^4.9.3",
+    "eslint": "^5.6.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "css-loader": "^1.0.0"
+  },
+  "dependencies": {
+    "@material/animation": "^0.41.0",
+    "@material/base": "^0.41.0",
+    "@material/checkbox": "^0.41.0",
+    "@material/form-field": "^0.41.0",
+    "@material/radio": "^0.41.0",
+    "@material/ripple": "^0.41.0",
+    "@material/selection-control": "^0.41.0",
+    "@material/textfield": "^0.41.0",
+    "@material/theme": "^0.41.0",
+    "material-components-web": "^0.41.0"
   }
 }
