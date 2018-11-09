@@ -1,9 +1,10 @@
 # .Net Core MVC with Webpack
 
 This project conatins a basic configuration for run a .Net Core MVC application and WebPack
+>.net core: 2.1
 
-- >net core 2.1
-- >webpack 4
+>webpack: "^4.25.1"
+
 ## How to install
 
 Clone repository from master
@@ -27,5 +28,6 @@ Can you change **webpackage.dev.config** for see new configurations
 - [x] .Net Core MVC Application
 - [x] Webpack in mode development
 - [ ] Webpack in mode production
-- [ ] A batter templates
-- [ ] Full Material Design
+- [ ] A better templates with Full Material Design
+
+### Fix
