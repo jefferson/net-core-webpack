@@ -40,6 +40,7 @@
     "@material/base": "^0.41.0",
     "@material/checkbox": "^0.41.0",
     "@material/form-field": "^0.41.0",
+    "@material/layout-grid": "^0.41.0",
     "@material/radio": "^0.41.0",
     "@material/ripple": "^0.41.0",
     "@material/selection-control": "^0.41.0",

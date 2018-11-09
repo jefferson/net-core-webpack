@@ -1,4 +1,4 @@
-﻿import './main.scss'
+﻿import '../scss/main.scss'
 
 import { MDCTextField } from '@material/textfield';
 

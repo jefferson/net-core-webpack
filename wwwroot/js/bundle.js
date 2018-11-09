@@ -64,7 +64,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "bd267ec7f422e1981417";
+/******/ 	var hotCurrentHash = "6e6c65765370b5b9a480";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -789,22 +789,22 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return hotCreateRequire("./Scripts/es6/home.js")(__webpack_require__.s = "./Scripts/es6/home.js");
+/******/ 	return hotCreateRequire("./Assets/es6/home.js")(__webpack_require__.s = "./Assets/es6/home.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./Scripts/es6/home.js":
-/*!*****************************!*\
-  !*** ./Scripts/es6/home.js ***!
-  \*****************************/
+/***/ "./Assets/es6/home.js":
+/*!****************************!*\
+  !*** ./Assets/es6/home.js ***!
+  \****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-__webpack_require__(/*! ./main.scss */ "./Scripts/es6/main.scss");
+__webpack_require__(/*! ../scss/main.scss */ "./Assets/scss/main.scss");
 
 var _textfield = __webpack_require__(/*! @material/textfield */ "./node_modules/@material/textfield/dist/mdc.textfield.js");
 
@@ -812,15 +812,15 @@ var textField = new _textfield.MDCTextField(document.querySelector('.mdc-text-fi
 
 /***/ }),
 
-/***/ "./Scripts/es6/main.scss":
+/***/ "./Assets/scss/main.scss":
 /*!*******************************!*\
-  !*** ./Scripts/es6/main.scss ***!
+  !*** ./Assets/scss/main.scss ***!
   \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/sass-loader/lib/loader.js??ref--6-2!./main.scss */ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js?!./Scripts/es6/main.scss");
+var content = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/sass-loader/lib/loader.js??ref--6-2!./main.scss */ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js?!./Assets/scss/main.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -839,8 +839,8 @@ var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyl
 if(content.locals) module.exports = content.locals;
 
 if(true) {
-	module.hot.accept(/*! !../../node_modules/css-loader!../../node_modules/sass-loader/lib/loader.js??ref--6-2!./main.scss */ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js?!./Scripts/es6/main.scss", function() {
-		var newContent = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/sass-loader/lib/loader.js??ref--6-2!./main.scss */ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js?!./Scripts/es6/main.scss");
+	module.hot.accept(/*! !../../node_modules/css-loader!../../node_modules/sass-loader/lib/loader.js??ref--6-2!./main.scss */ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js?!./Assets/scss/main.scss", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/sass-loader/lib/loader.js??ref--6-2!./main.scss */ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js?!./Assets/scss/main.scss");
 
 		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 
@@ -6781,9 +6781,9 @@ var MDCTextFieldIconAdapter = function () {
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js?!./Scripts/es6/main.scss":
+/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js?!./Assets/scss/main.scss":
 /*!************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--6-2!./Scripts/es6/main.scss ***!
+  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--6-2!./Assets/scss/main.scss ***!
   \************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
