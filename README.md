@@ -28,6 +28,10 @@ Can you change **webpackage.dev.config** for see new configurations
 - [x] .Net Core MVC Application
 - [x] Webpack in mode development
 - [ ] Webpack in mode production
+<<<<<<< HEAD
 - [ ] A better templates with Full Material Design
 
 ### Fix
+=======
+- [ ] A better templates with Full Material Design
+>>>>>>> cb200b225f9e5b9cdf75e0856f9057e53618c448
