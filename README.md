@@ -15,7 +15,7 @@ Install package.json dependencies
 ```
 npm install
 ``` 
-Run dontet core and webpackage
+Run dontet core and webpac
 ```
 npm run dev
 ```
