@@ -64,7 +64,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "96877239cd71f43ee467";
+/******/ 	var hotCurrentHash = "7522c89027d44f18c748";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -809,6 +809,8 @@ __webpack_require__(/*! ../scss/main.scss */ "./Assets/scss/main.scss");
 var _textfield = __webpack_require__(/*! @material/textfield */ "./node_modules/@material/textfield/dist/mdc.textfield.js");
 
 var textField = new _textfield.MDCTextField(document.querySelector('.mdc-text-field'));
+
+console.log('teste');
 
 /***/ }),
 

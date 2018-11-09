@@ -17,7 +17,7 @@ namespace mvc_webpack.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = " description page.";
 
             return View();
         }

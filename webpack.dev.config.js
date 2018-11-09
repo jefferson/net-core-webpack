@@ -8,15 +8,6 @@ const pathResolve = (folder) => {
     return path.resolve(__dirname, folder);
 }
 
-const options = {
-    watch: {
-        ignored: './node_modules'
-    },
-    livereload: {
-        ignore: './node_modules'
-    }
-}
-
 module.exports = {
     mode: 'development',
     entry: './Assets/es6/home.js',
@@ -27,15 +18,9 @@ module.exports = {
         hotUpdateChunkFilename: '../../.hot/[id].[hash].hot-update.js',
         hotUpdateMainFilename: '../../.hot/[hash].hot-update.json'
     },
-    watch: {
-        watchOptions: {
-            ignored: options.watch.ignored,
-        }
-    },
+    watch: false,
     plugins: [
-        new webpack.HotModuleReplacementPlugin(),
-        new LiveReloadPlugin(options.livereload)
-
+        new webpack.HotModuleReplacementPlugin()
     ],
     devtool: 'cheap-module-source-map',
     module: {
