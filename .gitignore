@@ -68,3 +68,5 @@ vs/
 .vscode/
 .hot/
 .DS_Store
+wwwroot/js/bundle.js
+wwwroot/js/bundle.map.js

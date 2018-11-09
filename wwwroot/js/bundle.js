@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	function hotDisposeChunk(chunkId) {
 /******/ 		delete installedChunks[chunkId];
@@ -7400,3 +7401,5 @@ module.exports = function (css) {
 
 /******/ });
 //# sourceMappingURL=bundle.js.map
+=======
+>>>>>>> 34e447701492a77471a71b3ed1bb7a7c00f52df3

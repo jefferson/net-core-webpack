@@ -13,7 +13,51 @@
 </head>
 
 <body>
-    @RenderBody()
+    <div class="bs2_fluido">
+        <aside class="bg">
+            <ul>
+                <li>
+                    <i class="ico logo"></i>
+                </li>
+                <li>
+                    <i class="ico imitir-boleto"></i>
+                    <span>Emitir Boleto</span>
+                </li>
+                <li>
+                    <i class="ico home"></i>
+                    <span>Home</span>
+                </li>
+                <li>
+                    <i class="ico cobranca"></i>
+                    <span>Cobrança</span>
+                </li>
+                <li>
+                    <i class="ico financiamento"></i>
+                    <span>Financiamento</span>
+                </li>
+                <li>
+                    <i class="ico remessa"></i>
+                    <span>Remessa</span>
+                </li>
+                <li>
+                    <i class="ico clientes"></i>
+                    <span>Clientes</span>
+                </li>
+            </ul>
+        </aside>
+        <article>
+            <header></header>
+        </article>
+
+    </div>
+    <div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell--span-12">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
     <environment include="Development">
         <script>
             document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
@@ -25,6 +69,7 @@
         <script src="~/js/site.min.js" asp-append-version="true"></script>
     </environment>
     @RenderSection("Scripts", required: false)
+
 </body>
 
 </html>
