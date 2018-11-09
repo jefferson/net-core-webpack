@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,26 +13,57 @@
     </environment>
 
 </head>
-<body>
-    
-   
-  
 
-   <div class="bg">
-<ul>
-    <li><i class="ico logo"></i>
-    </li>
-    <li><i class="ico imitir-boleto"></i><span>Emitir Boleto</span></li>
-    <li><i class="ico home"></i><span>Home</span></li>
-    <li><i class="ico cobranca"></i><span>Cobrança</span></li>
-    <li><i class="ico financiamento"></i><span>Financiamento</span></li>
-    <li><i class="ico remessa"</i><span>Remessa</span></li>
-    <li><i class="ico clientes"></i><span>Clientes</span></li>
-</ul>
-   </div>
-        @RenderBody()
-      
-    
+<body>
+    <div class="bs2_fluido">
+        <aside class="bg">
+            <ul>
+                <li>
+                    <i class="ico logo"></i>
+                </li>
+                <li>
+                    <i class="ico imitir-boleto"></i>
+                    <span>Emitir Boleto</span>
+                </li>
+                <li>
+                    <i class="ico home"></i>
+                    <span>Home</span>
+                </li>
+                <li>
+                    <i class="ico cobranca"></i>
+                    <span>Cobrança</span>
+                </li>
+                <li>
+                    <i class="ico financiamento"></i>
+                    <span>Financiamento</span>
+                </li>
+                <li>
+                    <i class="ico remessa"></i>
+                    <span>Remessa</span>
+                </li>
+                <li>
+                    <i class="ico clientes"></i>
+                    <span>Clientes</span>
+                </li>
+            </ul>
+        </aside>
+        <article>
+            <header></header>
+        </article>
+
+    </div>
+    <div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell--span-12">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+
+
+
+
 
 
 
@@ -46,4 +78,5 @@
 
     @RenderSection("Scripts", required: false)
 </body>
+
 </html>
