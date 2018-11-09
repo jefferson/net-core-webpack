@@ -1,6 +1,6 @@
 # .Net Core MVC with Webpack
 
-This project conatins a basic configuration for run a .Net Core MVC application and WebPack
+This project conatins a basic configuration for run a .Net Core MVC application and WebPack in Windows
 >.net core: 2.1
 
 >webpack: "^4.25.1"
