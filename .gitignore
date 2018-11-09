@@ -63,3 +63,6 @@ typings/
 #.net core dependencies
 bin/
 obj/
+.vs/
+.vscode/
+.hot/

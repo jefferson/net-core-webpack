@@ -1,0 +1,65 @@
+Usando as configura‡äes de inicializa‡Æo de C:\Users\bsi91176\Documents\poc\mvc_webpack\net-core-webpack\Properties\launchSettings.json...
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\bsi91176\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: C:\Users\bsi91176\Documents\poc\mvc_webpack\net-core-webpack
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Index", controller = "Home"}. Executing action mvc_webpack.Controllers.HomeController.Index (mvc_webpack)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method mvc_webpack.Controllers.HomeController.Index (mvc_webpack) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method mvc_webpack.Controllers.HomeController.Index (mvc_webpack), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.344ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Index.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Index executed in 157.4462ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action mvc_webpack.Controllers.HomeController.Index (mvc_webpack) in 250.7822ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 522.9207ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/js/bundle.js?v=qG3VsSKaTFfD0atyZZctkM4JVH3eS0fnUDEyQK3BvVI  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/js/bundle.js'. Physical path: 'C:\Users\bsi91176\Documents\poc\mvc_webpack\net-core-webpack\wwwroot\js\bundle.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 46.6505ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/js/bundle.js.map  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/js/bundle.js.map'. Physical path: 'C:\Users\bsi91176\Documents\poc\mvc_webpack\net-core-webpack\wwwroot\js\bundle.js.map'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 16.8052ms 200 text/plain
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Index", controller = "Home"}. Executing action mvc_webpack.Controllers.HomeController.Index (mvc_webpack)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method mvc_webpack.Controllers.HomeController.Index (mvc_webpack) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method mvc_webpack.Controllers.HomeController.Index (mvc_webpack), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0291ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Index.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Index executed in 24.8914ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action mvc_webpack.Controllers.HomeController.Index (mvc_webpack) in 25.4194ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 25.8181ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/js/bundle.js?v=DZ0RZ5KYnNFrBt8A8xOFLNYKok-BW_62jXQMcR65j10  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/js/bundle.js'. Physical path: 'C:\Users\bsi91176\Documents\poc\mvc_webpack\net-core-webpack\wwwroot\js\bundle.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 35.9066ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/js/bundle.js.map  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/js/bundle.js.map'. Physical path: 'C:\Users\bsi91176\Documents\poc\mvc_webpack\net-core-webpack\wwwroot\js\bundle.js.map'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 17.7457ms 200 text/plain
+Application is shutting down...

@@ -1,17 +1,40 @@
 const path = require('path');
+const LiveReloadPlugin = require('webpack-livereload-plugin');
 const webpack = require('webpack');
 const glob = require('glob');
+const eslintFormatter = require("eslint/lib/formatters/stylish");
+
+const pathResolve = (folder) => {
+    return path.resolve(__dirname, folder);
+}
+
+const options = {
+    watch: {
+        ignored: './node_modules'
+    },
+    livereload: {
+        ignore: './node_modules'
+    }
+}
 
 module.exports = {
     mode: 'development',
     entry: './Assets/es6/home.js',
     output: {
-        path: path.resolve(__dirname, './wwwroot/js'),
-        publicPath: path.resolve(__dirname, './wwwroot'),
-        filename: 'bundle.js'
+        path: pathResolve('./wwwroot/js'),
+        publicPath: pathResolve('./wwwroot'),
+        filename: 'bundle.js',
+        hotUpdateChunkFilename: '../../.hot/[id].[hash].hot-update.js',
+        hotUpdateMainFilename: '../../.hot/[hash].hot-update.json'
+    },
+    watch: {
+        watchOptions: {
+            ignored: options.watch.ignored,
+        }
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
+        new LiveReloadPlugin(options.livereload)
 
     ],
     devtool: 'cheap-module-source-map',
@@ -23,7 +46,7 @@ module.exports = {
                 exclude: /node_modules/,
                 loader: "eslint-loader",
                 options: {
-                    formatter: require("eslint/lib/formatters/stylish"),
+                    formatter: eslintFormatter,
                     emitWarning: true,
                 },
             },
@@ -74,18 +97,7 @@ module.exports = {
     resolve: {
         extensions: ['.js'],
         alias: {
-            modules: __dirname + '/node_modules',
+            modules: pathResolve('/node_modules'),
         }
-    },
-    // devServer: {
-    //     port: 2828,
-    //     contentBase: './public',
-    //     historyApiFallback: true,
-    //     hot: true,
-    //     open: true,
-    //     overlay: {
-    //         warnings: false,
-    //         errors: true
-    //     },
-    // }
+    }
 };
