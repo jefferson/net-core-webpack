@@ -27,5 +27,6 @@ Can you change **webpackage.dev.config** for see new configurations
 
 - [x] .Net Core MVC Application
 - [x] Webpack in mode development
+- [x] Webpack LiveReload plugin
 - [ ] Webpack in mode production
 - [ ] A better templates with Full Material Design
