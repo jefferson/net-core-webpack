@@ -1,8 +1,12 @@
-.bg {
-  width: 100px;
-  height: 100vh;
-  background-color: var(--warm-blue);
-}
+
+.bs2_fluido{
+  display: flex;
+  flex-direction: row;
+  .bg {
+    width: 210px;
+    height: 100vh;
+    background-color: var(--warm-blue);
+  }
 
 
 .ico{ 
@@ -12,4 +16,5 @@
 .financiamento{}
 .remessa{}
 .clientes{}
+}
 }

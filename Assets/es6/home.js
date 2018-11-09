@@ -1,4 +1,7 @@
-﻿import '../scss/main.scss'
+﻿import '../scss/_normalize.scss';
+import '../scss/main.scss';
+import '../scss/colors.scss';
+import '../scss/menu.scss';
 
 import { MDCTextField } from '@material/textfield';
 
