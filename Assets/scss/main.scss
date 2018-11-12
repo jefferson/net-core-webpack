@@ -3,3 +3,10 @@
 @import "@material/form-field/mdc-form-field";
 @import "@material/textfield/mdc-text-field";
 @import "@material/radio/mdc-radio";
+
+.teste{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    background-image: url('../img/lobo.jpg');
+}

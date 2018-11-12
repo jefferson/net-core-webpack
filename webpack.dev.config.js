@@ -63,7 +63,13 @@ module.exports = {
             },
             {
                 test: /\.(png|svg|jpg|gif)$/,
-                use: 'file-loader'
+                loader: 'file-loader',
+                options: {
+                    //context: pathResolve('./wwwroot'),
+                    //useRelativePath: false,
+                    outputPath: '../img',
+                    publicPath: '/img'
+                }
             },
             {
                 type: 'javascript/auto',
